@@ -1,0 +1,102 @@
+
+html{
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+} 
+
+body{
+    
+    background-image: url(./Maquette1/img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+}
+header,main{
+    width: 60%;
+    background-color: #B8CB21;
+    margin:10px auto 0 auto;
+}
+main{
+    background-color: #ffffff;
+    margin-top: 0;
+    color: #6b6a65;
+}
+/* Start nav style*/
+nav ul{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+nav ul li{
+    float: left;
+    margin-right: 30px;
+}
+nav ul li a{
+    font-size: 1.3em;
+    color: #2C4722;
+}
+/*End nav Style*/
+article{
+    padding: 40px 20px 20px 20px;
+    overflow: auto;
+}
+
+/* article::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+/*Start article style*/
+article h2{
+    margin-top: 0;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #b9cf50;
+    text-transform: uppercase;
+}
+article h2 i {
+    margin-right: 5px;
+}
+
+article img{
+    max-width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+article p{
+    font-weight: 300;
+}
+article ul li{
+    font-weight: 300;
+}
+article a{
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    color: #ffffff;
+    padding: 5px 7px 11px 7px;
+    background-color: #b9cf50;
+}
+.text{
+    clear: both;
+}
+/*End article style*/
+footer{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+footer img{
+    width: 60px;
+}
+footer span{
+    color: purple;
+    text-decoration: underline;
+    font-weight: 400;
+}
+footer p{
+    font-weight: 300;
+    color: #6b6a65;
+}
